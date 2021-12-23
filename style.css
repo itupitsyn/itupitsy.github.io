@@ -1,0 +1,120 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(img/back.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(61, 61, 61);
+}
+
+.headers {
+  font-size: 1.5em;
+  text-align: right;
+  padding-right: 2em;
+}
+
+.photo {
+  width: 200px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 5px grey ;
+  transition: 200ms;
+}
+
+table.maininfo {
+  margin-top: 3em;
+  max-width: 50em;
+}
+
+.maininfo tr {
+  height: 10em;
+  vertical-align: top;
+}
+
+h1 {
+  color: gray;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 3em;
+}
+
+table.firstcontacts {
+  margin-top: 2em;
+}
+
+.firstcontacts td, .firstcontacts th {
+  width: 10em;
+  height: 2em;
+  text-align: left;
+}
+
+.firstcontacts tr {
+  height: 2em;
+  font-size: 1.1em;
+}
+
+.skills {
+  margin-bottom: 0.5em;
+}
+
+.skills label {
+  width: 100px;
+  text-align: left;
+  float: left;
+  margin-right: 10px;
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
+.skills progress{
+  height: 2em;
+  width: 20em;
+}
+
+.about {
+  font-size: 1.2em;
+}
+
+ul.contacts {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+ul.contacts li {
+  display: inline;
+}
+
+ul.contacts a {
+  width: 5em;
+  padding:10px;
+  background-color: #f4f4f4;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+ul.contacts a:hover{
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+div.copy {
+  position: absolute;
+  left: 70%;
+}
+
+img.gallery {
+  width: 14em;
+  height: 14em;
+  object-fit: cover;
+  margin: 0.5em;
+}
